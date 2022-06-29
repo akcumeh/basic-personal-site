@@ -1,0 +1,19 @@
+/* 
+Positioning Elements
+relative positioning shifts an element wrt its initial intended statically-determined position among the HTML content.
+If a box was already 30px from the left of the page, and its given a relative position with left 30px, it will now be 60px from the left of the page but everything else will stay as intended! It doesn't affect the position of anything else on screen.
+absolute positioning sets an element relative to its parent.
+absolute positioning affects page flow, so it leaves no element ghosts.
+fixed keeps the position of the element even if the page is scrolled!!! 知らなかった！
+
+Centering elements
+block elements can be centered by setting a width and then setting margin: auto;
+for horizontal centering, margin: 0 auto 0 auto; for vertical centering, margin: auto 0 auto 0;
+
+Sizing text
+n rem = n x 16 no matter what the parent font size was.
+
+More positioning: Float & Clear
+float allows other elements to wrap around the specified one on a chosen side.
+clear is the anti-float and prevents other elements from wrapping around an element on the side that is specified.
+*/

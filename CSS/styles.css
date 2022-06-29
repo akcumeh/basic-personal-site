@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #51404a;
+}
+
+div.top-container {
+    background-color: #DEB6AB;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+div.bottom-container {
+    position: relative;
+    top: 50px;
+    background-color: #ac7e88;
+    padding: 25px 10px;
+    line-height: 2;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+/* 16px = 100% = 1em */
+/* n rem = n x 16 no matter what the parent font size was.
+   Use rem instead of em or percentages */
+
+/* #855970 changed to #644354 for the sake of accessibility. */
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 3.125rem auto 0 auto;
+    color: #644354;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    color: #644354;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #855970;
+}
+
+a {
+    color: #855970;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img-01 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img-02 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+hr {
+    color: #DEB6AB;
+    border-style: dotted none none none;
+    border-width: 7.5px;
+    height: 5px;
+    width: 5%;
+}
+
+.bottom {
+    width: 75%;
+    margin: auto;
+    line-height: 2;
+}
+
+.btn {
+    background: #ac7e88;
+    background-image: -webkit-linear-gradient(top, #ac7e88, #855970);
+    background-image: -moz-linear-gradient(top, #ac7e88, #855970);
+    background-image: -ms-linear-gradient(top, #ac7e88, #855970);
+    background-image: -o-linear-gradient(top, #ac7e88, #855970);
+    background-image: linear-gradient(to bottom, #ac7e88, #855970);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #F8ECD1;
+    position: relative;
+    top: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #855970;
+    text-decoration: none;
+}
+
+.bottom-container a {
+    color: #644354;
+    text-decoration: none;
+}
+
+.as {
+    justify-content: center;
+}
+
+.attribution {
+    color: white;
+}
