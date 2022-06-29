@@ -9,6 +9,7 @@ div.top-container {
     background-color: #DEB6AB;
     position: relative;
     padding-top: 100px;
+    margin-bottom: 100px;
 }
 
 .top-cloud {
